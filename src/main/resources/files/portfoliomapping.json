@@ -1,0 +1,21 @@
+{
+  "ASSETS":{
+    "generic":["Interest Receivable","Penalties Receivable","Fees Receivable","Transfer in Suspense"]
+  },
+
+  "LIABILITY":{
+    "generic":["Over payment liability"]
+  },
+
+  "EQUITY":{
+    "generic":[]
+  },
+
+  "EXPENSE":{
+    "generic":["Losses written off"]
+  },
+
+  "INCOME":{
+    "generic":["Income from penalties","Income from Recovery Repayments","Income from Interest","Income from fees"];
+  }
+}
