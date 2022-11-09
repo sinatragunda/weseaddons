@@ -14,9 +14,6 @@ public class RemittanceFundsKey {
 
         Random random = new Random(timeNow);
 
-
-
-
         long key = random.nextLong();
 
         if(key < 0){
@@ -26,7 +23,6 @@ public class RemittanceFundsKey {
         Date date = TimeHelper.timestampToDate(timeNow);
         String fundsKey = String.format("%d%d%s/%d",date.getDate(),date.getYear() , standardCurrency.getName(),key);
         return fundsKey ;
-
     }
 
 }

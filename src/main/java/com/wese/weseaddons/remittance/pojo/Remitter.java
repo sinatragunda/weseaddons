@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class Remitter{
-	
 	private String name ;
 	private String phoneNumber ;
 
